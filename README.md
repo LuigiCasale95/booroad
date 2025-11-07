@@ -1,16 +1,56 @@
-# React + Vite
+# BooRoad - App di Viaggio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Benvenuti in **BooRoad**, l'applicazione web per la gestione dei viaggi turistici. Questa app permette alle guide di accedere facilmente alle informazioni sui viaggi e visualizzare i dettagli di tutti gli utenti partecipanti.
 
-Currently, two official plugins are available:
+## 🚀 Caratteristiche Principali
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Gestione Viaggi**: Le guide possono aprire e consultare le informazioni dettagliate sui viaggi programmati.
+- **Visualizzazione Utenti**: Accesso completo alla lista degli utenti iscritti, con tutte le loro informazioni personali.
+- **Interfaccia Intuitiva**: Costruita con React e Bootstrap per un'esperienza utente fluida e responsive.
+- **Tecnologie Moderne**: Utilizza Vite per un sviluppo rapido e prestazioni ottimali.
 
-## React Compiler
+## 📦 Installazione
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Per installare e avviare l'applicazione, segui questi passaggi:
 
-## Expanding the ESLint configuration
+1. Clona il repository:
+   ```
+   git clone <url-del-repository>
+   cd booroad
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Installa le dipendenze:
+   ```
+   npm install
+   ```
+
+3. Avvia il server di sviluppo:
+   ```
+   npm run dev
+   ```
+
+L'applicazione sarà disponibile su `http://localhost:5173` (porta predefinita di Vite).
+
+## 🛠️ Script Disponibili
+
+- `npm run dev`: Avvia il server di sviluppo
+- `npm run build`: Costruisce l'app per la produzione
+- `npm run lint`: Esegue il controllo del codice con ESLint
+- `npm run preview`: Anteprima dell'app costruita
+
+## 📁 Struttura del Progetto
+
+- `src/`: Codice sorgente dell'applicazione
+  - `data/`: File di dati per partecipanti e viaggi
+  - `App.jsx`: Componente principale
+  - `main.jsx`: Punto di ingresso
+- `public/`: File statici
+- `vite.config.js`: Configurazione di Vite
+
+## 🤝 Contributi
+
+Siamo felici di ricevere contributi! Sentiti libero di aprire issue o pull request per migliorare l'app.
+
+## 📄 Licenza
+
+Questo progetto è distribuito sotto la licenza MIT.
