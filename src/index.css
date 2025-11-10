@@ -3,7 +3,6 @@ a {
 	color: inherit;
 }
 
-
 /* Custom wider container */
 .container-wide {
   width: 100%;
@@ -42,3 +41,8 @@ a {
     max-width: 1600px; /* Even wider */
   }
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
