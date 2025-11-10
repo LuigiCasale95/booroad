@@ -18,3 +18,7 @@
 		width: 45%;
 	}
 }
+
+.pointer {
+    cursor: pointer;
+}
