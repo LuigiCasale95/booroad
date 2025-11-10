@@ -10,9 +10,11 @@ const TravelList = ({ search }) => {
 
 	return (
 		<div className="container-wide d-flex flex-wrap gap-5 p-0 justify-content-center align-items-stretch">
-			{filteredViaggi.map((trav) => (
-				<SingleTravel key={trav.id} trav={trav} />
-			))}
+			{filteredViaggi.length === 0 ? (
+				<p>Nessun viaggio trovato corrispondente alla tua ricerca.</p>
+			) : (
+				filteredViaggi.map((trav) => <SingleTravel key={trav.id} trav={trav} />)
+			)}
 		</div>
 	);
 };
