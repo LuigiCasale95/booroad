@@ -14,7 +14,7 @@ export default function MyHeader() {
 					<img
 						src={logo}
 						alt="BooRoad"
-						style={{ height: "300px", width: "300px" }}
+						style={{ height: "180px", width: "180px" }}
 					/>
 				</Link>
 				<div>
@@ -26,8 +26,8 @@ export default function MyHeader() {
 						</div>
 					)}
 					{isTravelPage && (
-						<div>
-							<Link to="users/add" className="btn btn-primary m-5">
+						<div className="d-flex gap-3">
+							<Link to="users/add" className="btn btn-primary">
 								Aggiungi un partecipante
 							</Link>
 							<Link to="/" className="btn btn-primary">
