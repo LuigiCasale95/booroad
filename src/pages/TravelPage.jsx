@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PersonList from "../components/PersonList";
-import PersonsSearchBar from "../components/searchcomponents/personsSearchBar";
+import PersonsSearchBar from "../components/searchcomponents/PersonsSearchBar";
 
 const TravelPage = () => {
 	const [search, setSearch] = useState("");

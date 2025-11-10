@@ -13,7 +13,7 @@ export default function SinglePerson({ person }) {
 	return (
 		<div
 			onClick={showDetails}
-			className="gap-3 mb-3 p-3 bg-light border rounded"
+			className="gap-3 mb-3 p-3 bg-light border rounded pointer"
 		>
 			<h2>
 				{person.nome} {person.cognome}
