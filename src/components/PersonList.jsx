@@ -9,9 +9,13 @@ const PersonList = ({ search }) => {
 
 	return (
 		<div className="container-wide">
-			{filteredPersons.map((person) => (
-				<SinglePerson key={person.id} person={person} />
-			))}
+			{filteredPersons.length === 0 ? (
+				<p>Nessun partecipante trovato corrispondente alla tua ricerca.</p>
+			) : (
+				filteredPersons.map((person) => (
+					<SinglePerson key={person.id} person={person} />
+				))
+			)}
 		</div>
 	);
 };
